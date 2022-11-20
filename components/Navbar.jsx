@@ -41,7 +41,7 @@ function Navbar() {
             </li>
 
             <li className={`${Styles.section} ${Styles.signup}`}>
-              <Link href="/">
+              <Link href="Login">
                 <a className="">Sign up</a>
               </Link>
             </li>

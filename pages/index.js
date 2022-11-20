@@ -23,7 +23,7 @@ export default function Home({ images }) {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className={Styles.body}>
+    <div>
       {toggle ? (
         <div>
           <button onClick={() => setToggle(false)}>false</button>
